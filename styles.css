@@ -147,6 +147,24 @@ body {
         height: 50px;
     }
 }
+/* Ensure the body takes up the full height of the viewport */
+
+
+/* Main content should grow to fill available space */
+section.contact-section {
+  flex: 1; /* Allow the contact section to take up remaining space */
+}
+
+/* Footer styling */
+.site-footer {
+  background-color: #101314; /* Dark background */
+  color: #fdff77; /* White text */
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
 
   /* Skills Section */
   
@@ -393,4 +411,5 @@ body {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
 }
   
-  
+
+
